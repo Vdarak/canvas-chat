@@ -177,6 +177,12 @@ function TopBar({ onToggleSidebar }: { onToggleSidebar: () => void }) {
         >
           <Menu className="w-5 h-5 text-neutral-400" />
         </button>
+
+        <div className="flex items-center gap-2 px-3 py-2 bg-[#1c1c1c] border border-[#333] rounded-md">
+          <img src="/Hierarchy.svg" alt="Canvas Chat Logo" className="w-5 h-5" />
+          <span className="text-sm font-bold text-neutral-200">Canvas Chat</span>
+        </div>
+
         <div className="flex items-center gap-2 px-3 py-2 bg-[#1c1c1c] border border-[#333] rounded-md">
           <CheckCircle2 className="w-4 h-4 text-green-500" />
           <span className="text-sm font-medium text-neutral-400">Saved</span>
