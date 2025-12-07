@@ -6,7 +6,7 @@ import { Copy, CornerDownRight, ArrowRight, Plus, LinkIcon, GitBranch, Trash2, M
 import { cn } from "@/lib/utils"
 import { useCanvasStore, type NodeData } from "@/lib/store"
 import { generateId, getSmartPosition } from "@/lib/utils"
-import { generateResponse } from "@/lib/gemini"
+import { generateResponse } from "@/app/actions"
 import { createPortal } from "react-dom"
 import ReactMarkdown from "react-markdown"
 import remarkGfm from "remark-gfm"
