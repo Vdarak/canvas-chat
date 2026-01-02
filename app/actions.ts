@@ -13,7 +13,7 @@ const genAI = new GoogleGenerativeAI(apiKey || "");
 export async function generateResponse(
     prompt: string,
     context?: string,
-    modelName: string = "gemini-2.5-flash-lite",
+    modelName: string = "gemini-3-flash",
     systemInstruction?: string
 ) {
     try {
